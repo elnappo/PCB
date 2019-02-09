@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:esp8266-1_bme280_simple-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -337,4 +336,15 @@ Wire Wire Line
 Wire Wire Line
 	3400 4400 3950 4400
 Connection ~ 3950 4400
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5C5EA887
+P 3050 3700
+F 0 "H1" H 3150 3746 50  0000 L CNN
+F 1 "MountingHole" H 3150 3655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 3050 3700 50  0001 C CNN
+F 3 "~" H 3050 3700 50  0001 C CNN
+	1    3050 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
